@@ -14,6 +14,9 @@ fm2 = re.findall(re0, str2)
 str3='60-6999'
 m3 = re.match(re0, str3)
 
+str4 = '60-14-2523-123'
+m4 = re.findall(re0, str4)
+
 re1 = r'\w+[@]\w+([._]?\w+)*[.][a-zA-Z]{2,3}'
 st0= 'ab@cd.ef'
 n0 = re.match(re1, st0)
